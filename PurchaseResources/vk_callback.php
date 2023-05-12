@@ -32,39 +32,12 @@ else { // Иначе, если подпись ПРАВИЛЬНАЯ
 			
 			$item = $input['item']; // Получение информации о товаре
 			
-			if ($item == 'offAds') {	// наименование товара
+			if ($item == 'test_item_1') {	// наименование товара
 				$response['response'] = array(
 					'item_id' => 101,  // ID 1 товара
-					'title' => 'Отключение рекламы', // Заголовок 1 товара
-					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png', // Ссылка на иконку 1 товара
-					'price' => 15 // Цена 1 товара в голосах ВК
-					);
-				}
-				
-			elseif ($item == '200Diamonds') {
-				$response['response'] = array(
-					'item_id' => 201,  // ID 2 товара
-					'title' => '200 алмазов', // Заголовок 2 товара
-					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/200Diamonds.png', // Ссылка на иконку 2 товара
-					'price' => 10 // Цена 2 товара в голосах ВК
-					);		
-				}
-				
-			elseif ($item == '500Diamonds') {
-				$response['response'] = array(
-					'item_id' => 301,  // ID 3 товара
-					'title' => '500 алмазов', // Заголовок 3 товара
-					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/500Diamonds.png', // Ссылка на иконку 3 товара
-					'price' => 20 // Цена 3 товара в голосах ВК
-					);
-				}
-				
-			elseif ($item == '1500Diamonds') {
-				$response['response'] = array(
-					'item_id' => 401,  // ID 4 товара
-					'title' => '1500 алмазов', // Заголовок 4 товара
-					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/1500Diamonds.png', // Ссылка на иконку 4 товара
-					'price' => 50 // Цена 4 товара в голосах ВК
+					'title' => 'Покупка предмета', // Заголовок 1 товара
+					'photo_url' => 'https://alexeykryuk.github.io/VK-SDK-Test/PurchaseResources/Item_Test_1.png', // Ссылка на иконку 1 товара
+					'price' => 3 // Цена 1 товара в голосах ВК
 					);
 				}
 			break;
@@ -85,32 +58,6 @@ else { // Иначе, если подпись ПРАВИЛЬНАЯ
 					);
 				}
 				
-			elseif ($item == '200Diamonds') {
-				$response['response'] = array(
-					'item_id' => 202,  // ID 2 тестового товара
-					'title' => '200 алмазов (тестовый режим)', // Заголовок 2 тестового товара
-					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/200Diamonds.png', // Ссылка на иконку 2 тестового товара
-					'price' => 10 // Цена 2 тестового товара в голосах ВК
-					);
-				}
-				
-			elseif ($item == '500Diamonds') {
-				$response['response'] = array(
-					'item_id' => 302,  // ID 3 тестового товара
-					'title' => '500 алмазов (тестовый режим)', // Заголовок 3 тестового товара
-					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/500Diamonds.png', // Ссылка на иконку 3 тестового товара
-					'price' => 20 // Цена 3 тестового товара в голосах ВК
-					);
-				}
-				
-			elseif ($item == '1500Diamonds') {
-				$response['response'] = array(
-					'item_id' => 402,  // ID 4 тестового товара
-					'title' => '1500 алмазов (тестовый режим)', // Заголовок 4 тестового товара
-					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/1500Diamonds.png', // Ссылка на иконку 4 тестового товара
-					'price' => 50 // Цена 4 тестового товара в голосах ВК
-					);
-				}
 			break;
 
 
