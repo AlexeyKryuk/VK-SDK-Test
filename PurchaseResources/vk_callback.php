@@ -80,7 +80,7 @@ else { // Иначе, если подпись ПРАВИЛЬНАЯ
 				$response['response'] = array(
 					'item_id' => 102,  // ID 1 тестового товара
 					'title' => 'Покупка предмета (тестовый режим)', // Заголовок 1 тестового товара
-					'photo_url' => 'Item_Test_1.png', // Ссылка на иконку 1 тестового товара
+					'photo_url' => 'https://alexeykryuk.github.io/VK-SDK-Test/PurchaseResources/Item_Test_1.png', // Ссылка на иконку 1 тестового товара
 					'price' => 3 // Цена 1 тестового товара в голосах ВК
 					);
 				}
